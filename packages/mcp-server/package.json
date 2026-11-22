@@ -1,0 +1,18 @@
+{
+  "name": "@phone-workbench/mcp-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@phone-workbench/contracts": "0.0.0",
+    "@phone-workbench/core": "0.0.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "scripts": {
+    "test": "tsx --test test/mcp.test.ts",
+    "start": "tsx src/stdio.ts"
+  },
+  "license": "MIT"
+}

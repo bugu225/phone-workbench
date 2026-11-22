@@ -1,0 +1,14 @@
+{
+  "name": "@phone-workbench/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@phone-workbench/contracts": "0.0.0"
+  },
+  "scripts": {
+    "test": "tsx --test test/core.test.ts"
+  },
+  "license": "MIT"
+}

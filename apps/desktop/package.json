@@ -1,0 +1,18 @@
+{
+  "name": "@phone-workbench/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/main.cjs",
+  "dependencies": {
+    "@phone-workbench/contracts": "0.0.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "electron .",
+    "test": "tsx --test test/desktop-state.test.ts"
+  },
+  "license": "MIT"
+}
